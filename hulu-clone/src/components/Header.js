@@ -11,9 +11,13 @@ function Header() {
     return (
         // BEM naming class
         <div className="header">
+
             <div className="header__icons">
                 
-                <div className="header__icon">
+                <div 
+                    className="header__icon
+                    header__icon--active"
+                    >
                     <HomeIcon/>
                     <p>Home</p>
                 </div>
@@ -44,9 +48,11 @@ function Header() {
                 </div>                
                
             </div>
+
             <img className="logo"
                     src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-green-digital.png?w=960" 
-                    alt="logo"/>
+                    alt="logo"
+            />
             
         </div>
     )
