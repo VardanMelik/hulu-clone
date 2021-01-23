@@ -12,17 +12,41 @@ function Header() {
         // BEM naming class
         <div className="header">
             <div className="header__icons">
-                <HomeIcon/>
-                <FlashOnIcon/>
-                <LiveTvIcon/>
-                <VideoLibraryIcon/>
-                <SearchIcon/>
-                <PersonOutlineIcon/>
                 
-                <img 
-                    src="https://hulu-matchmaker.s3.us-west-2.amazonaws.com/2020-08/Hulu_Logo-01_newgreen.png" 
-                    alt="logo"/>
+                <div className="header__icon">
+                    <HomeIcon/>
+                    <p>Home</p>
+                </div>
+
+                <div className="header__icon">
+                    <FlashOnIcon/>
+                    <p>Trending</p>
+                </div>
+
+                <div className="header__icon">
+                    <LiveTvIcon/>
+                    <p>Verified</p>
+                </div>
+
+                <div className="header__icon">
+                    <VideoLibraryIcon/>
+                    <p>Collections</p>
+                </div>
+
+                <div className="header__icon">
+                    <SearchIcon/>
+                    <p>Search</p>
+                </div>
+
+                <div className="header__icon">
+                    <PersonOutlineIcon/>
+                    <p>Account</p>
+                </div>                
+               
             </div>
+            <img className="logo"
+                    src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-green-digital.png?w=960" 
+                    alt="logo"/>
             
         </div>
     )

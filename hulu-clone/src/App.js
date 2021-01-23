@@ -4,7 +4,7 @@ import Header from './components/Header';
 function App() {
   return (
     // BEM standard
-    <div className="App">
+    <div className="app">
       <Header/>
       {/* Header  */}
 
